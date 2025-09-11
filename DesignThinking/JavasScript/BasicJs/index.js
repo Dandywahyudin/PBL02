@@ -1,0 +1,12 @@
+let z;
+z = 2 + 4 - 2.5; console.log("2 + 4 - 2.5 = " + z );
+z = 2 + 4 * 3  - 6 /2; console.log("2 + 4 * 3  - 6 /2 = " + z + "<br>");
+z = (2 + 4) * 3 - 6 / 2; console.log("(2 + 4) * 3 - 6 / 2 = " + z + "<br>");
+z = 13.5 % 3; console.log("13.5 % 3 = " + z + "<br>");
+z = 6; console.log("z = " + z + "<br>");
+z = -z; console.log("z = -z = " + z + "<br>");
+z = z * 5; console.log("z = z * 5 = " + z + "<br>");
+z = 2.5 ** -3.5; console.log("z = z / 2 = " + z + "<br>");
+z = (-2.5) ** -3; console.log("z = z / 2 = " + z + "<br>");
+z = (-2) ** -3.5; console.log("z = z / 2 = " + z + "<br>");
+z = 4 * 3 ** 2; console.log("z = 4 * 3 ** 2 = " + z + "<br>");
