@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampu lalu lintas</title>
+</head>
+<body>
+    <h2>Lampu Lalu Lintas</h2>
+    <script>
+        const input = prompt("Masukan Lampu Lalu Lintas" + "(merah, kuning, hijau): ");
+        const lampu = input.toLowerCase();
+        if(lampu === "merah"){
+            document.write("Berhenti");
+            let lampuMerah = document.getElementById("lampuMerah");
+        } else if(lampu === "kuning"){
+            let lampuKuning = document.getElementById("lampuKuning");
+            document.write("Hati-hati");
+        } else{
+            document.write("Jalan");
+        }
+    </script>
+</body>
+</html>
