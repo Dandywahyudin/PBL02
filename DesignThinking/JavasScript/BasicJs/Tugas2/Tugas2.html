@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const input1 = prompt("Masukkan nama: ");
+        const input2 = prompt("Masukkan Jenis Kelamin: ");
+        const input3 = prompt("Masukkan Status: ");
+        const Nama = input1.toLowerCase();
+        const JenisKelamin = input2.toLowerCase();
+        const Status = input3.toLowerCase();
+
+        if (Nama === "tono" && JenisKelamin === "pria" && Status === "sendiri") {
+            document.write("Nama : " + Nama + "<br>");
+            document.write("Jenis Kelamin : " + JenisKelamin + "<br>");
+            document.write("Status : " + Status + "<br>");
+            document.write("Keterangan : Perjaka");
+        } else if (Nama === "agil" && JenisKelamin === "pria" && Status === "kawin") {
+            document.write("Nama : " + Nama + "<br>");
+            document.write("Jenis Kelamin : " + JenisKelamin + "<br>");
+            document.write("Status : " + Status + "<br>");
+            document.write("Keterangan : Menikah");
+        } else if (Nama === "ahmad" && JenisKelamin === "pria" && Status === "cerai") {
+            document.write("Nama : " + Nama + "<br>");
+            document.write("Jenis Kelamin : " + JenisKelamin + "<br>");
+            document.write("Status : " + Status + "<br>");
+            document.write("Keterangan : Duda");
+        } else if (Nama === "setyowati" && JenisKelamin === "wanita" && Status === "sendiri") {
+            document.write("Nama : " + Nama + "<br>");
+            document.write("Jenis Kelamin : " + JenisKelamin + "<br>");
+            document.write("Status : " + Status + "<br>");
+            document.write("Keterangan : Perawan");
+        } else if (Nama === "neneng" && JenisKelamin === "wanita" && Status === "kawin") {
+            document.write("Nama : " + Nama + "<br>");
+            document.write("Jenis Kelamin : " + JenisKelamin + "<br>");
+            document.write("Status : " + Status + "<br>");
+            document.write("Keterangan : Menikah");
+        } else if (Nama === "lis" && JenisKelamin === "wanita" && Status === "cerai") {
+            document.write("Nama : " + Nama + "<br>");
+            document.write("Jenis Kelamin : " + JenisKelamin + "<br>");
+            document.write("Status : " + Status + "<br>");
+            document.write("Keterangan : Janda");
+        } else {
+            document.write("Keterangan : Data Tidak Ditemukan");
+        }
+    </script>
+</body>
+</html>
