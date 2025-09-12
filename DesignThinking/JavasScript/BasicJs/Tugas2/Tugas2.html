@@ -7,6 +7,7 @@
 </head>
 <body>
     <script>
+    
         const input1 = prompt("Masukkan nama: ");
         const input2 = prompt("Masukkan Jenis Kelamin: ");
         const input3 = prompt("Masukkan Status: ");
@@ -44,9 +45,11 @@
             document.write("Jenis Kelamin : " + JenisKelamin + "<br>");
             document.write("Status : " + Status + "<br>");
             document.write("Keterangan : Janda");
+        } else if (Nama === "" && JenisKelamin === "" && Status === "") {
+            document.write("Keterangan : Data Harus Di isi");
         } else {
             document.write("Keterangan : Data Tidak Ditemukan");
         }
     </script>
-</body>
+</body>   
 </html>
