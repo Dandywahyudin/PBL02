@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+</head>
+<body>
+    <script>
+        let input1 = prompt("Masukkan nama: ");
+        let input2 = prompt("Masukkan NIP: ");
+        let nama = input1;
+        let nip = input2;
+
+        let tahun = nip.substring(0, 4);
+        let bulan = nip.substring(4, 6);
+        let hari = nip.substring(6, 8);
+        let tahunAsn = nip.substring(8, 12);
+        let bulanAsn = nip.substring(12, 14);
+        let jk = nip.substring(14, 15);
+        let noUrut = nip.substring(15, 18);
+        
+        let tanggal = new Date(`${tahun}-${bulan}-${hari}`);
+        let bulanAs = new Date(`${tahunAsn}-${bulanAsn}`);
+        let hariNama = tanggal.toLocaleDateString('id-ID', { weekday: 'long' });
+        let bulanNama = bulanAs.toLocaleDateString('id-ID', { month: 'long' });
+        let tanggalLahir = `${hariNama}, ${hari}-${bulan}-${tahun}`;
+        let tanggalAsn = `${bulanNama} ${tahunAsn}`;
+        let jenisKelamin = (parseInt(jk) % 2 === 0) ? "Perempuan" : "Laki-laki";
+
+        document.write("Nama : " + nama + "<br>");
+        document.write("Nama : " + nip + "<br>");
+        document.write("Tanggal Lahir : " + tanggalLahir + "<br>");
+        document.write("Tanggal ASN : " + tanggalAsn + "<br>");
+        document.write("Jenis Kelamin : " + jenisKelamin + "<br>");
+        document.write("No. Urut : " + noUrut + "<br>");
+
+        // 197209172005011002
+    </script>
+</body>
+</html>
+
