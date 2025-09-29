@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "68cd00bb3c49c8cb15d64412"
+  },
+  "kode": "PLG01",
+  "nama": "Mohamad",
+  "kelamin": "Pria",
+  "alamat": "Priok",
+  "kota": "Jakarta"
+},
+{
+  "_id": {
+    "$oid": "68cd00bb3c49c8cb15d64413"
+  },
+  "kode": "PLG02",
+  "nama": "Nautal",
+  "kelamin": "Pria",
+  "alamat": "Clinchig",
+  "kota": "Jakarta"
+},
+{
+  "_id": {
+    "$oid": "68cd00bb3c49c8cb15d64414"
+  },
+  "kode": "PLG03",
+  "nama": "Atia",
+  "kelamin": "Pria",
+  "alamat": "Bongyosang",
+  "kota": "Bandung"
+},
+{
+  "_id": {
+    "$oid": "68cd00bb3c49c8cb15d64415"
+  },
+  "kode": "PLG04",
+  "nama": "Tasiaa",
+  "kelamin": "Wanita",
+  "alamat": "Bah-Batu",
+  "kota": "Bandung"
+},
+{
+  "_id": {
+    "$oid": "68cd00bb3c49c8cb15d64416"
+  },
+  "kode": "PLG05",
+  "nama": "Damay",
+  "kelamin": "Wanita",
+  "alamat": "Guheng",
+  "kota": "Surabaya"
+},
+{
+  "_id": {
+    "$oid": "68cd00bb3c49c8cb15d64417"
+  },
+  "kode": "PLG06",
+  "nama": "Tsaniy",
+  "kelamin": "Pria",
+  "alamat": "Darmo",
+  "kota": "Surabaya"
+},
+{
+  "_id": {
+    "$oid": "68cd00bb3c49c8cb15d64418"
+  },
+  "kode": "PLG07",
+  "nama": "Nabila",
+  "kelamin": "Wanita",
+  "alamat": "Lebak Bulus",
+  "kota": "Jakarta"
+}]

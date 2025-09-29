@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "68cd01333c49c8cb15d64419"
+  },
+  "kode": "P001",
+  "nama": "Indomie",
+  "satuan": "Bungkus",
+  "stok": 10,
+  "harga": 3000
+},
+{
+  "_id": {
+    "$oid": "68cd01333c49c8cb15d6441a"
+  },
+  "kode": "P002",
+  "nama": "Roti",
+  "satuan": "Pak",
+  "stok": 3,
+  "harga": 4000
+},
+{
+  "_id": {
+    "$oid": "68cd01333c49c8cb15d6441b"
+  },
+  "kode": "P003",
+  "nama": "Kecap",
+  "satuan": "Botol",
+  "stok": 8,
+  "harga": 4700
+},
+{
+  "_id": {
+    "$oid": "68cd01333c49c8cb15d6441c"
+  },
+  "kode": "P004",
+  "nama": "Saos Tomat",
+  "satuan": "Botol",
+  "stok": 8,
+  "harga": 5800
+},
+{
+  "_id": {
+    "$oid": "68cd01333c49c8cb15d6441d"
+  },
+  "kode": "P005",
+  "nama": "Bihun",
+  "satuan": "Bungkus",
+  "stok": 5,
+  "harga": 3500
+},
+{
+  "_id": {
+    "$oid": "68cd01333c49c8cb15d6441e"
+  },
+  "kode": "P006",
+  "nama": "Sikat Gigi",
+  "satuan": "Pak",
+  "stok": 5,
+  "harga": 15000
+},
+{
+  "_id": {
+    "$oid": "68cd01333c49c8cb15d6441f"
+  },
+  "kode": "P007",
+  "nama": "Pasta Gigi",
+  "satuan": "Pak",
+  "stok": 7,
+  "harga": 10000
+},
+{
+  "_id": {
+    "$oid": "68cd01333c49c8cb15d64420"
+  },
+  "kode": "P008",
+  "nama": "Saos Sambal",
+  "satuan": "Botol",
+  "stok": 5,
+  "harga": 7300
+}]
